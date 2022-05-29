@@ -1,0 +1,147 @@
+body{
+    background: #fce621;
+}
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+.head{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #A0522D;
+  border-radius: 50%;
+}
+
+/*head copy for making the ears behind the head*/
+.head-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #A0522D;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/*start my code*/
+
+.ear-left{  /*mine*/
+    position:absolute;  
+    width:60%;
+    height:65%;
+    top:5%;
+    left:-20%;
+    background-color:#A0522D;
+    border-radius:50%;
+    z-index:1;
+}
+
+.ear-right{
+    position:absolute;
+    width:60%;
+    height:65%;
+    top:5%;
+    right:-20%;
+    background-color:#A0522D;
+    border-radius:50%;
+    z-index:1;
+}
+
+.inner-ear{
+    position:absolute;
+    width:80%;
+    height:80%;
+    background-color:#CD853F;
+    top:10%;
+    left:10%;
+    border-radius:50%
+}
+
+/*start eyes*/
+.eye-left{/*mine*/
+    width:30%;
+    height:33%;
+    background-color:#FFF;
+    position:absolute;
+    left:22.5%;
+    top:20%;
+    z-index:3;
+    border-radius:50%;
+}
+
+.eye-right{
+    width:30%;
+    height:33%;
+    background-color:#FFF;
+    position:absolute;
+    right:22.5%;
+    top:20%;
+    z-index:2;
+    border-radius:50%;
+}
+
+.pupil{
+    width:28%;
+    height:30%;
+    position:absolute;
+    top:35%;
+    left:36%;
+    border-radius:50%;
+    background-color:#3a3d59;
+}
+
+.nose{
+    width:20%;
+    height:35%;
+    background-color:#282828;
+    position:absolute;
+    top:43%;
+    left:40%;
+    z-index:4;
+    border-radius:50px
+}
+
+.hair-left{
+    width:20%;
+    height:30%;
+    background-color:#A0522D;;
+    position:absolute;
+    left:32%;
+    top:-16%;
+    clip-path: polygon(48% 29%, 0% 100%, 100% 100%);
+}
+
+.hair-right{
+    width:20%;
+    height:30%;
+    background-color:#A0522D;;
+    position:absolute;
+    right:35%;
+    top:-13%;
+    clip-path: polygon(48% 29%, 0% 100%, 100% 100%);
+}
+
+
+.mouth{
+    width: 15%;
+    height: 5%;
+    background-color: #f0906b;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border: 2px solid rgb(86, 86, 86);
+    border-top: 0;
+    position:absolute;
+    z-index:4;
+    bottom:8%;
+    left:42.5%;
+}
+
+
